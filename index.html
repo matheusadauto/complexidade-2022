@@ -1,362 +1,322 @@
-
+<!DOCTYPE html>
 
 <html>
-<head>
-<style>
-body {
-    margin-top: 3em;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60em;
-}
-</style>
- <title>Complexidade de Algoritmos</title>
- <meta charset="UTF-8">
-</head>
+    <head>
+        <style>
+            body {
+                margin-top: 3em;
+                margin-left: auto;
+                margin-right: auto;
+                width: 60em;
+            }
+            th {
+                float: left;
+                padding:3px;
+            }
+            td {
+                padding:2px;
+            }
+        </style>
+        <title>Complexidade de Algoritmos</title>
+    </head>
 
-<body>
+    <body>
+        <h1>
+            Complexidade de Algoritmos - 2022/3
+        </h1>
+        <h3>Mestrado e Doutorado</h3>
 
-    <h1>
-        Complexidade de Algoritmos  - 2022/3<br>
-        (PESC: COS841; PPGI: MAB704)
-    </h1>
-    <h3>Mestrado e Doutorado</h3>
-    Nesta página vocês terão todas as informações a respeito do curso, por isso sempre estejam de olho nela. <br>
-<br>
-    <a href="http://www.cos.ufrj.br/">Programa de Engenharia de Sistemas e Computação</a>, COPPE, UFRJ
+        Nesta página vocês terão todas as informações a respeito do curso, por isso sempre estejam de olho nela. <br>
+        <br>
+        <a href="http://www.cos.ufrj.br/">Programa de Engenharia de Sistemas e Computação</a>, COPPE, UFRJ
 
+        <dl>
+            <dt><b>Professores</b></dt><br>
+            <dd>
+                <a href="http://www.cos.ufrj.br/%7Ecelina">Celina Miraglia Herrera de Figueiredo</a><br>
+                <a href="https://www.cos.ufrj.br/~franklin/">Franklin Marquezino</a><br>
+            </dd>
+            <br>
 
+            <dt><b>Ementa</b></dt><br>
+            <dd>
+                Algoritmos. 
+                Notação O, &Omega;, &theta;.
+                Problemas em P. 
+                Programação dinâmica.
+                Método Guloso.
+                Backtracking.
+                Limites inferiores.
+                Algoritmos polinomiais.
+                Problemas de decisão.
+                Problemas em NP.
+                Certificados.
+                Classe NP.
+                NP-completo.
+                NP-completo Forte.
+                Algoritmos randomizados.
+                Algoritmos aproximativos.
+                Problemas de otimização.
+                Esquemas de aproximação em tempo polinomial.
+                Max SNP-completo.
+                Complexidade parametrizada
+            </dd>
+            <br>
 
+            <dt><b>Horário e local das aulas</b></dt><br>
+            <dd>
+                Início: 27/09/2022<br>
+                terças e quintas, 13h-15h, 
+                H-324B
+                <br>
+            </dd>
+            <br>
 
+            <dt><b>Monitores</b></dt><br>
+                <dd><a href="mailto:mmartins@cos.ufrj.br">Mariana Martins Ferreira da Cruz</a></dd>
+                <dd><a href="mailto:adauto@cos.ufrj.br">Matheus Nunes Adauto</a></dd>
+            <br>
+                <dd><a href="https://chat.whatsapp.com/JVb0G2vc9KqLK7ijwwd6H7">Grupo de Whatsapp</a></dd>
+            <br>	
 
-    <dl>
-        <dt><b>Professores</b></dt><br>
+            <dt><b>Listas</b></dt>
+            <br>
+                <dd> As listas deverão ser entregues até a data determinada, podem ser enviadas por email. </dd>
+            <dd>
+                <ul>
+                <li><a href="./Listas/Lista1_Complexidade_22_3.pdf">Lista 1</a>: Entregar até 23:59 de 10/10/2022
+            </dd>
+            
+            <!--
+            <dt><b>Provas</b></dt>
+            <br>
+                <dd> As provas deverão ser entregues até a data determinada por email. </dd>
+            <dd>
+                <ul>
+                <li>Prova 1: Entregar até 17/12/2021 
+                <a href="http://www.cos.ufrj.br/~fbotler/complexidade/2021/gabarito1.pdf">Gabarito</a>
+                <br>
+                <li>
+                <a href = "http://www.cos.ufrj.br/~fbotler/complexidade/2021/P2.pdf">Prova 2</a>: Entregar até  18/02/2022
+                <a href="http://www.cos.ufrj.br/~fbotler/complexidade/2021/P2-gabarito.pdf">Gabarito</a>
+            </dd>
+            -->
+    
+            <br>       
+            <dt><b>Cronograma previsto</b></dt><br>
+            <dd>
+                <table style="width:100%">
+                    <tr>
+                        <th><b>Setembro<b></th>
+                    </tr>
+                    <tr>
+                        <!-- <td><a href="https://youtu.be/xptN42OmvpI">17</a></td> -->
+                        <td>27</td>
+                        <td> Apresentação do curso; Notação assintótica; Relações de recorrência; Teorema Mestre. <!-- <a href="https://jamboard.google.com/d/15w2iOlwPJMykNeMr-LR16gTlm4ND9Qc7Rr-QRpDQgvA/edit?usp=sharing">Notas de aula</a> --> </td>
+                    </tr>
+                    <tr>
+                        <td>29</td>
+                        <td>Lower bounds (árvore de decisão e método do adversário), ordenação em tempo linear. </td>
+                    </tr>
+                    <tr>
+                        <th><b>Outubro<b></th>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Dividir e conquistar, quicksort.</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Programação dinâmica.</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>Algoritmos gulosos</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>Backtracking (e/ou mais exemplos das técnicas anteriores).</td>
+                    </tr>
+                    <tr>
+                        <td>18</td>
+                        <td>Problemas de decisão. Problemas de otimização.</td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td>Não haverá aula</td>
+                    </tr>
+                    <tr>
+                        <td>25</td>
+                        <td>P1</td>
+                    </tr>
+                    <tr>
+                        <td>27</td>
+                        <td>Não haverá aula</td>
+                    </tr>
+                    <tr>
+                        <th><b>Novembro<b></th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Certificados. A Classe NP. Transformações polinomiais. problemas NP-Completos.</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td> Reduções de Karp X Redu&ccedil;&otilde;es de Cook, restrições e extensões de problemas. 
+                            </br> Algoritmos superpolinomiais, isomorfismo de grafos.</td>
+                    </tr>	
+                    <tr>
+                        <td>8</td>
+                        <td>Algoritmos pseudopolinomiais, problemas num&eacute;ricos.</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Um pouco de probabilidade.</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>Feriado</td>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td>Análise probabilística e Algoritmos randomizados.</td>
+                    </tr>
+                    <tr>
+                        <td>22</td>
+                        <td>Algoritmos randomizados.</td>
+                    </tr>
+                    <tr>
+                        <td>24</td>
+                        <td>Métodos probabilísticos.</td>
+                    </tr>
+                    <tr>
+                        <td>29</td>
+                        <td>Algoritmos aproximativos e razão de aproximação.</td>
+                    </tr>
+                    <tr>
+                        <th><b>Dezembro<b></th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Cobertura de vértices e cobertura de conjuntos.</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>P2</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Não haverá aula</td>
+                    </tr>
+                    <!--<tr>
+                        <td>13</td>
+                        <td>Esquemas de aproximação polinomial para o problema da mochila.</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>Esquemas de aproximação polinomial para o problema do caixeiro viajante.</td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td>Complexidade Parametrizada.</td>
+                    </tr>-->
+                </table>
+            </dd>
+            <br>
+
+            <br>
+            <dt><b>Informações interessantes</b></dt><br>
+            <dd><a href="http://www.cos.ufrj.br/~celina/ftp/semanapesc2017.pdf">Palestra da professora Celina sobre o problema do milênio.</a></dd>
+            <dd><a href="http://www.cos.ufrj.br/~celina/ftp/sbc2016.pdf"> Intratabilidade e Otimização </a></dd>
+            <dd>FEOFILOFF, P. <a href="https://www.ime.usp.br/~pf/amostra-de-prova/"> O que é uma prova? </a></dd>
+            <dd>Prof. Uéverton dos Santos Souza - <a href="http://www.ic.uff.br/~ueverton/parametrizado.html">Algoritmos Parametrizados</a></dd>
+            <br>
+            
+            <dt><b>Bibliografia</b></dt><br>
+            <dd>
+                <ul>
+                    <li>
+                        CORMEN, T. H.; LEISERSON, C. E.; RIVEST, R. L.; STEIN, C.
+                        <i>Introduction to Algorithms</i>. 3rd edition. MIT Press, 2009.
+                    </li>
+                    <li>
+                        KLEINBERG, J.; TARDOS, E.
+                        <i>Algorithm Design</i>. Addison-Wesley, 2005.
+                    </li>
+                    <li>
+                        DASGUPTA, S.; PAPADIMITRIOU, C., VAZIRANI, U.
+                        <i>Algorithms</i>. McGraw-Hill, 2006.
+                    </li>
+                    <li>
+                        SZWARCFITER, J. L.
+                        <i>Teoria Computacional de Grafos</i>. Elsevier, 2018.
+                    </li>
+                    <li>
+                        GAREY, M. R.; JOHNSON, D. S.
+                        <i>Computers and Intractability: A Guide to the Theory of NP-Completeness</i>. W. H. Freeman, 1979.
+                    </li>
+                    <li>
+                        JOHNSON, D. S.
+                        <i><a href="http://davidsjohnson.net/columns/">NP-Completeness Columns</a></i>.
+                    </li>
+                    <li>
+                        PAPADIMITRIOU, C. H.
+                        <i>Computational Complexity</i>. Addison-Wesley, 1994.
+                    </li>
+                    <li>
+                        PAPADIMITRIOU, C. H.; STEIGLITZ, K.
+                        <i>Combinatorial Optimization: Algorithms and Complexity</i>. Dover, 1998.
+                    </li>
+                    <li>
+                        CARVALHO, M. H.; CERIOLI, M. R.; DAHAB, R.;FEOFILOFF, P.; FERNANDES, <br>
+                        C. H.; FERREIRA, C. E.; GUIMARÃES, K. S.;MIYAZAWA, F. K.; PINA Jr., J. C. de; SOARES, J. A. R.; WAKABAYASHI, Y.<br><!------>
+                        <i><a href="https://www.ime.usp.br/~cris/aprox/livro.pdf">Uma Introdução Sucinta a Algoritmos de Aproximação</a></i>. IMPA, 2001.
+                    </li>              
+                    <li>
+                        DOS SANTOS, V. F.; SOUZA, U. S..<br><!------>
+                        <i><a href="http://www.ic.uff.br/~ueverton/files/complexidade_parametrizada.pdf">Uma introdução à complexidade parametrizada</a></i>. 
+                    </li>
+                    <li>
+                        VAZIRANI, V. V.
+                        <i>Aproximation Algorithms</i>. Springer-Verlag, 2001.
+                    </li>
+                    <li>
+                        FIGUEIREDO, C. M. H.; FONSECA, G. D.; LEMOS, M. J. M. S.; SÁ, V. G. P.
+                        <i><a href="http://vigusmao.github.io/manuscripts/randomizados.pdf">Uma Introdução aos Algoritmos Randomizados</a></i>. IMPA, 2007.
+                    </li>
+                    <li>
+                        MITZENMACHER, M.; UPFAL, E.
+                        <i>Probability and Computing: Randomized Algorithms and Probabilistic Analysis</i>. Cambridge University Press, 2005.
+                    </li>
+                    <li>
+                        MOTWANI, R.; RAGHAVAN, P.
+                        <i>Randomized Algorithms</i>. Cambridge University Press, 1995.
+                    </li>
+                    <li>
+                        WINGDERSON, A.
+                        <i> <a href="https://www.math.ias.edu/avi/book">Mathematics and Computation.</a></i>.
+                    </li>                
+                </ul>
+            </dd>
+        </dl>
+
+        <dt><b>Edições anteriores deste curso</b></dt><br>
         <dd>
-            <a href="http://www.cos.ufrj.br/%7Ecelina">Celina Miraglia Herrera de Figueiredo</a><br>
-            <a href="https://www.cos.ufrj.br/~franklin/">Franklin Marquezino</a><br>
+            <a href = "https://www.cos.ufrj.br/~fbotler/complexidade/2021">2021/3</a>
+            <a href = "https://www.cos.ufrj.br/~fbotler/complexidade/2020">2020/3</a>
+            <a href = "https://www.cos.ufrj.br/~fbotler/complexidade/2019">2019/3</a>
+            <a href = "https://www.cos.ufrj.br/~fbotler/complexidade/2018">2018/3</a>
+            <a href = "https://www.cos.ufrj.br/~santiago/complexAlg.html">2017/3</a>
         </dd>
-	<br>
+        <br><br>
 
-<!--	<br>-->
-
-	<br>
-	<dt><b>Ementa</b></dt><br>
-	<dd>
-	
-	Algoritmos. 
-	Notação O, &Omega;, &theta;.
-	Problemas em P. 
-	Programação dinâmica.
-	Método Guloso.
-	Backtracking.
-	Limites inferiores.
-	Algoritmos polinomiais.
-	Problemas de decisão.
-	Problemas em NP.
-	Certificados.
-	Classe NP.
-	NP-completo.
-	NP-completo Forte.
-	Algoritmos randomizados.
-	Algoritmos aproximativos.
-	Problemas de otimização.
-	Esquemas de aproximação em tempo polinomial.
-	Max SNP-completo.
-	Complexidade parametrizada
-	</dd>
-	<br>
-
-<dt><b>Horário e local das aulas</b></dt><br>
-	<dd>
-		Início: 27/09/2022<br>
-		terças e quintas, 13h-15h, 
-		H-324B
-		<br>
-	</dd>
-<br>
-
-<dt><b>Monitores</b></dt><br>
-	<dd><a href="mailto:mmartins@cos.ufrj.br">Mariana Martins Ferreira da Cruz</a></dd>
-	<dd><a href="mailto:adauto@cos.ufrj.br">Matheus Nunes Adauto</a></dd>
-<br>
-	<dd><a href="https://chat.whatsapp.com/JVb0G2vc9KqLK7ijwwd6H7">Grupo de Whatsapp</a></dd>
-<br>	
-
-<dt><b>Listas</b></dt>
-<br>
-<dd>
-As listas deverão ser entregues até a data determinada, podem ser enviadas por email.
-</dd>
-<dd>
-<br>
-<ul>
-<li><a href="listas/Lista_1___Complexidade_22_3.pdf">Lista 1</a>: Entregar até 10/10/2022    
-<!-- <li><a href="http://www.cos.ufrj.br/~fbotler/complexidade/2021/lista2.pdf">Lista 2</a>: Entregar até 17/01/2021
-<li><a href="http://www.cos.ufrj.br/~fbotler/complexidade/2021/lista3.pdf">Lista 3</a>: Entregar até 02/02/2021 -->
-</dd>
-
-<dt><b>Provas</b></dt>
-<br>
-<dd>
-As provas deverão ser entregues até a data determinada por email.
-</dd>
-<dd>
-<br>
-<ul>
-<li>Prova 1: Entregar até 17/12/2021 
-<a href="http://www.cos.ufrj.br/~fbotler/complexidade/2021/gabarito1.pdf">Gabarito</a>
-<br>
-<li>
-<a href = "http://www.cos.ufrj.br/~fbotler/complexidade/2021/P2.pdf">Prova 2</a>: Entregar até  18/02/2022
-<a href="http://www.cos.ufrj.br/~fbotler/complexidade/2021/P2-gabarito.pdf">Gabarito</a>
-<!--
-<li><a href = "http://www.cos.ufrj.br/~fbotler/complexidade/2020/lista2.pdf">Lista 2</a><a>: Entregar até 08/03/2021</a>   
--->
-</dd>
- 
- 
- <br>       
-<dt><b>Cronograma previsto</b></dt><br>
-
-<dd>
-<table style="width:100%">
-<tr><td><b>Novembro<b></td></tr>
-<tr><td> </td><td></td></tr>
-<tr><td>
-<a href="https://youtu.be/iLWOh-Kabws">17</a>
-</td><td>Apresentação do curso; 
-<tr><td> </td><td></td></tr>
-<tr><td>
-<tr><td>
-<a href="https://youtu.be/xptN42OmvpI">17</a>
-</td><td> Notação assintótica; Relações de recorrência; Teorema Mestre.  -
-<a href="https://jamboard.google.com/d/15w2iOlwPJMykNeMr-LR16gTlm4ND9Qc7Rr-QRpDQgvA/edit?usp=sharing">notas</a>
-<tr><td> </td><td></td></tr>
-<tr><td>
-<a href="https://youtu.be/igNBVIyqBls">22</a>
-</td><td>Lower bounds (árvore de decisão e método do adversário), ordenação em tempo linear  -
-<a href="https://jamboard.google.com/d/1gqZeKl-3-TqZRvEZNrsFmjHK9bWWGVgnd8aFN_ZYqYo/edit?usp=sharing">notas</a>
-</td></tr>
-<tr><td> </td><td></td></tr>
-<tr><td>
-<a href="https://youtu.be/AIAtEeB-Jzw">24</a>
-</td><td>Dividir e conquistar, quicksort   -
-<a href="https://jamboard.google.com/d/1CDjosXYvuOhZKITs9kGnzfaIsUUmdDy4TA1imCbnEiM/edit?usp=sharing">notas</a></td></tr>
-<tr><td> </td><td></td></tr>
-<tr><td>
-<a href="https://youtu.be/DQHw0ZrqtIM">29</a>
-</td><td>Programação dinâmica   -
-<a href="https://jamboard.google.com/d/13-hp2v5XFESJrgbo_ngezJ3mcCSc2NxsaRmUNE4XZlE/edit?usp=sharing">notas</a></td></tr>
-<tr><td> </td><td></td></tr>
-<tr><td><b>Dezembro<b></td></tr>	
-<tr><td> </td><td></td></tr>
-<tr><td>
-<a href="https://youtu.be/hLInBpmpPwU">1</a> 
-</td><td>Algoritmos gulosos  -
-<a href="https://jamboard.google.com/d/13OcikDlnvruN4hCMlecQIZJDMdx1C6NkITA0icneF-Q/edit?usp=sharing">notas</a></td></tr>
-<tr><td> </td><td></td></tr>
-<tr><td>
-<a href="https://youtu.be/B-ipwdVF158">6</a>
-</td><td>Backtracking (e/ou mais exemplos das técnicas anteriores)  -
-<a href="https://jamboard.google.com/d/1_gSHSIgdeSt6mWEvD6LvBWTvA9-ui1a6iPGqbUIjAoY/edit?usp=sharing">notas</a></td></tr>
-<tr><td>
-<a href="https://youtu.be/lAb1JoKLHeI">8</a>
-</td><td>Problemas de decisão. Problemas de otimização.  -
-<a href="https://www.cos.ufrj.br/~fbotler/complexidade/2021/aula1.pdf">notas</a></td></tr>
-<tr><td> </td><td></td></tr>
-
-<tr><td> </td><td></td></tr>
-<tr><td>10 - 17</td><td>P1</td></tr>				
-<tr><td> </td><td></td></tr>
-
-<tr><td>
-<a href="https://youtu.be/MD7JfMDN3FQ">20</a>
-</td><td>Certificados. A Classe NP. Transformações polinomiais. problemas NP-Completos -
-<a href="https://www.cos.ufrj.br/~fbotler/complexidade/2021/aula2.pdf">notas</a></td></tr>
-<tr><td> </td><td></td></tr>
+        <footer>
+            <p>
+            <dd>Baseado no <a href = "https://www.cos.ufrj.br/~fbotler/complexidade/2021">site</a> da disciplina de Complexidade do Professor Fábio Botler
+            </p>
+        </footer>
 
 
-
-
-<tr><td> </td><td></td></tr>
-<tr><td><b>Janeiro<b></td></tr>	
-<tr><td> </td><td></td></tr>
-
-
-<tr><td>
-<a href="https://youtu.be/TTmR1XkTQTw">5</a>
-</td><td> Redu&ccedil;&otilde;es de Karp X Redu&ccedil;&otilde;es de Cook, 
-restri&ccedil;&otilde;es e extens&otilde;es de problemas.
-Algoritmos superpolinomiais, 
-isomorfismo de grafos. -
-<a href="https://www.cos.ufrj.br/~fbotler/complexidade/2021/aula2-parte2.pdf">notas 1</a>
-<a href="https://www.cos.ufrj.br/~fbotler/complexidade/2021/aula3.pdf">notas 2</a></td></tr>
-<tr><td> </td><td></td></tr>
-
-<tr><td>
-<a href="https://youtu.be/myfZMy_RcYU">10</a>
-</td><td>Algoritmos pseudopolinomiais, problemas num&eacute;ricos -
-<a href="https://www.cos.ufrj.br/~fbotler/complexidade/2021/aula4-1.pdf">notas</a></td></tr>
-<tr><td> </td><td></td></tr>
-
-<tr><td>
-<a href = "https://youtu.be/8bcwzrnK3L0">10</a>
-</td><td>Um pouco de probabilidade -
-<a href="https://www.cos.ufrj.br/~fbotler/complexidade/2021/aula4-2.pdf">notas</a></td></tr>
-</td></tr>
-
-
-<tr><td>
-<a href = "https://youtu.be/PhUXUXeG3Cw">12</a>
-</td><td>Análise probabilística e Algoritmos randomizados. -
-<a href="https://www.cos.ufrj.br/~fbotler/complexidade/2021/aula5-1.pdf">notas 1</a>
-<a href="https://www.cos.ufrj.br/~fbotler/complexidade/2021/aula5-2.pdf">notas 2</a>
-</td></tr>
-
-<tr><td>
-<a href = "https://youtu.be/ctFpeT2LvNs">17</a>
-</td><td>Algoritmos randomizados.-
-<a href="https://www.cos.ufrj.br/~fbotler/complexidade/2021/aula6.pdf">notas</a>
-</td></tr>
-<tr><td> </td><td></td></tr>
-
-<tr><td>
-<a href = "https://youtu.be/G3sN7h50NJ4">19</a>
-</td><td>Métodos probabilísticos.-
-<a href="https://www.cos.ufrj.br/~fbotler/complexidade/2021/aula7.pdf">notas</a>
-<a href="https://www.cos.ufrj.br/~fbotler/complexidade/2021/ch-sat.pdf">reducao-CH-SAT</a>
-</td></tr>
-<tr><td> </td><td></td></tr>
-
-<tr><td>
-<a href = "https://youtu.be/H_uDZTkx3uQ">24</a>
-</td><td>Algoritmos aproximativos e razão de aproximação.
-<a href = "http://www.cos.ufrj.br/~fbotler/complexidade/2021/Compl1aula13.pdf">Notas</a>
-</td></tr>
-<tr><td>
-<a href = "https://youtu.be/ag9UpeD7-z4">26</a>
-</td><td>Cobertura de vértices e cobertura de conjuntos.
-<a href = "http://www.cos.ufrj.br/~fbotler/complexidade/2021/Compl2aula14.pdf">Notas</a>
-</td></tr>
-<tr><td>
-<a href="https://youtu.be/i6t6ZWL3qwM">31</a> 
-</td><td>Esquemas de aproximação polinomial para o problema da mochila.
-<a href = "http://www.cos.ufrj.br/~fbotler/complexidade/2020/aula15.pdf">Notas</a>,
-</td></tr>
-<tr><td> </td><td></td></tr>
-<tr><td><b>Fevereiro<b></td></tr>	
-<tr><td> </td><td></td></tr>
-<tr><td>
-<a href="https://youtu.be/a2XnbRjTZqs">2</a>
-</td><td>Esquemas de aproximação polinomial para o problema do caixeiro viajante.
-<a href = "http://www.cos.ufrj.br/~fbotler/complexidade/2020/aula16.pdf">Notas</a>
-</td></tr>
-<tr><td>
-<a href="https://youtu.be/QJVlLvJyFog">7</a> -  
-<a href="https://youtu.be/klHzXfNUIjQ">9</a>
- </td><td>Complexidade Parametrizada.
-<a href = "http://www.cos.ufrj.br/~fbotler/complexidade/2020/aula17.pdf">Notas 1</a>,
-<a href = "http://www.cos.ufrj.br/~fbotler/complexidade/2020/aula18.pdf">Notas 2</a>
-</td></tr>
-<tr><td> </td><td></td></tr>
-
-<tr><td>11 - 18</td><td>P2</td></tr>
-</table>
-</dd>
-<br>
-
-<br>
-	<dt><b>Informações interessantes</b></dt><br>
-	<dd><a href="http://www.cos.ufrj.br/~celina/ftp/semanapesc2017.pdf">Palestra da professora Celina sobre o problema do milênio.</a></dd>
-	<dd><a href="http://www.cos.ufrj.br/~celina/ftp/sbc2016.pdf"> Intratabilidade e Otimização </a></dd>
-	<dd>FEOFILOFF, P. <a href="https://www.ime.usp.br/~pf/amostra-de-prova/"> O que é uma prova? </a></dd>
-	<dd>Prof. Uéverton dos Santos Souza - <a href="http://www.ic.uff.br/~ueverton/parametrizado.html">Algoritmos Parametrizados</a></dd>
-	<br>
-	
-        <dt><b>Bibliografia</b></dt><br>
-        <dd>
-            <ul>
-                <li>
-                    CORMEN, T. H.; LEISERSON, C. E.; RIVEST, R. L.; STEIN, C.
-                    <i>Introduction to Algorithms</i>. 3rd edition. MIT Press, 2009.
-                </li>
-                <li>
-                    KLEINBERG, J.; TARDOS, E.
-                    <i>Algorithm Design</i>. Addison-Wesley, 2005.
-                </li>
-                <li>
-                    DASGUPTA, S.; PAPADIMITRIOU, C., VAZIRANI, U.
-                    <i>Algorithms</i>. McGraw-Hill, 2006.
-                </li>
-                <li>
-                    SZWARCFITER, J. L.
-                    <i>Teoria Computacional de Grafos</i>. Elsevier, 2018.
-                </li>
-                <li>
-                    GAREY, M. R.; JOHNSON, D. S.
-                    <i>Computers and Intractability: A Guide to the Theory of NP-Completeness</i>. W. H. Freeman, 1979.
-                </li>
-                <li>
-                    JOHNSON, D. S.
-                    <i><a href="http://davidsjohnson.net/columns/">NP-Completeness Columns</a></i>.
-                </li>
-                <li>
-                    PAPADIMITRIOU, C. H.
-                    <i>Computational Complexity</i>. Addison-Wesley, 1994.
-                </li>
-                <li>
-                    PAPADIMITRIOU, C. H.; STEIGLITZ, K.
-                    <i>Combinatorial Optimization: Algorithms and Complexity</i>. Dover, 1998.
-                </li>
-                <li>
-                    CARVALHO, M. H.; CERIOLI, M. R.; DAHAB, R.;FEOFILOFF, P.; FERNANDES, <br>
-                    C. H.; FERREIRA, C. E.; GUIMARÃES, K. S.;MIYAZAWA, F. K.; PINA Jr., J. C. de; SOARES, J. A. R.; WAKABAYASHI, Y.<br><!------>
-                    <i><a href="https://www.ime.usp.br/~cris/aprox/livro.pdf">Uma Introdução Sucinta a Algoritmos de Aproximação</a></i>. IMPA, 2001.
-                </li>
-                
-                <li>
-                    DOS SANTOS, V. F.; SOUZA, U. S..<br><!------>
-                    <i><a href="http://www.ic.uff.br/~ueverton/files/complexidade_parametrizada.pdf">Uma introdução à complexidade parametrizada</a></i>. 
-                </li>
-                <li>
-                    VAZIRANI, V. V.
-                    <i>Aproximation Algorithms</i>. Springer-Verlag, 2001.
-                </li>
-                <li>
-                    FIGUEIREDO, C. M. H.; FONSECA, G. D.; LEMOS, M. J. M. S.; SÁ, V. G. P.
-                    <i><a href="http://vigusmao.github.io/manuscripts/randomizados.pdf">Uma Introdução aos Algoritmos Randomizados</a></i>. IMPA, 2007.
-                </li>
-                <li>
-                    MITZENMACHER, M.; UPFAL, E.
-                    <i>Probability and Computing: Randomized Algorithms and Probabilistic Analysis</i>. Cambridge University Press, 2005.
-                </li>
-                <li>
-                    MOTWANI, R.; RAGHAVAN, P.
-                    <i>Randomized Algorithms</i>. Cambridge University Press, 1995.
-                </li>
-				<li>
-                    WINGDERSON, A.
-                    <i> <a href="https://www.math.ias.edu/avi/book">Mathematics and Computation.</a></i>.
-                </li>                
-            </ul>
-        </dd>
-    </dl>
-
-    <dt><b>Edições anteriores deste curso</b></dt><br>
-    <dd>
-        <a href = "https://www.cos.ufrj.br/~fbotler/complexidade/2021/">2021/3</a>
-	    <a href = "https://www.cos.ufrj.br/~fbotler/complexidade/2020">2020/3</a>
-	    <a href = "https://www.cos.ufrj.br/~fbotler/complexidade/2019">2019/3</a>
-	    <a href = "https://www.cos.ufrj.br/~fbotler/complexidade/2018">2018/3</a>
-	    <a href = "https://www.cos.ufrj.br/~santiago/complexAlg.html">2017/3</a>
-    </dd>
-<br><br>
-    <footer>
-        <p>
-	<dd><!-- DATE-BEGIN -->Last modified on seg 22-02-21 13:45<!-- DATE-END -->
-        </p>
-    </footer>
-
-
-</body></html>
+    </body>
+</html>
 
